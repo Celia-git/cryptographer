@@ -91,10 +91,12 @@ def decrypt_files(password):
 if __name__=="__main__":
     if (len(sys.argv)==2):
         password = getpass.getpass("Enter encryption password\n")
-        if (sys.argv[1].startswith("e")):
-            encrypt_files(password)
-        elif (sys.argv[1].startswith("d")):
-            decrypt_files(password)
+        confirm_password = getpass.getpass("Confirm encryption password\n")
+        if password==confirm_password:
+            if (sys.argv[1].startswith("e")):
+                encrypt_files(password)
+            elif (sys.argv[1].startswith("d")):
+                decrypt_files(password)
     else:
         print("run program with arg1: encode/decode")
         
