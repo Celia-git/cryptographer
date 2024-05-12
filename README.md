@@ -1,8 +1,8 @@
 # Cryptographer
 Encrypt and decrypt text files (txt, csv, etc) with a personal password
-
-- download and open zip folder
+- download repository
 - deposit text files you want encrypted into the **cryptographer/decoded/** folder
+	- to see a demo with sample text files, just run the program as-is.
   ## Windows terminal directions
 - in terminal, navigate to **cryptographer/** folder
 - run `pip install -r requirements.txt`
