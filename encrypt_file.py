@@ -97,6 +97,8 @@ if __name__=="__main__":
                 encrypt_files(password)
             elif (sys.argv[1].startswith("d")):
                 decrypt_files(password)
+        else:
+            print("passwords don't match. process aborted \n")
     else:
         print("run program with arg1: encode/decode")
         
