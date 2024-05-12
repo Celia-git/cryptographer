@@ -14,5 +14,5 @@ Encrypt and decrypt text files (txt, csv, etc) with a personal password
 - then delete original files in **decoded/**
   ### If running decode:
 - program will decrypt the text files,
-- place unencrypted files in **decoded/*
+- place unencrypted files in **decoded/**
 - then delete the encrypted files and salt files in **encoded/** 
