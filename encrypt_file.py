@@ -80,12 +80,12 @@ def decrypt_files(password):
 
 # Encode: Reads lines from infile
     # encrypts them
-    # saves key
+    # saves salt.txt
     # saves new encrypted file
     # deletes unencrypted file
 # Decode: reads lines from infile
     # decrypts them
-    # deletes key and encrypted file
+    # deletes salt and encrypted file
     # saves new unencrypted file
     
 if __name__=="__main__":
